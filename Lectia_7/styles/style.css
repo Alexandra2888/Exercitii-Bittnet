@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    width: 400px;
+}
+
+input {
+    width: 30px;
+}
+
+.numbers_error {
+    border: 1px solid red;
+}
+.numbers_error:focus {
+    outline: none;
+}
