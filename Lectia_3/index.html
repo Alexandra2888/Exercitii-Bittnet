@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tabele in actiune - exercitiu</title>
+    </head>
+
+    <body>
+        <h2>Completati acest formular:</h2>
+
+        <form action="example.php" method="GET">
+            <table border="0" width="600" cellspacing="5" cellpadding="10">
+                <caption>Va rugam sa completati acest formular pentru inscriere:</caption>
+                <tr>
+                    <td>
+                        <label for="lname">Nume:</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="lname" id="lname" maxlength="50" size="60" placeholder="Numele dvs.">
+                    </td>
+                    <td rowspan="5">
+                        <img src="./assets/salut.png" width="250" height="250">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fname">Prenume:</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="fname" id="fname" maxlength="50" size="60" placeholder="Prenumele dvs.">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="email" id="email" maxlength="20" placeholder="Emailul">
+                    </td>
+                    <td rowspan="3">
+                        <textarea rows="8" cols="25">
+                            O scurta descriere...
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Telefon:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="phone" id="phone" maxlength="10" placeholder="0723..">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="age">Varsta:</label>
+                    </td>
+                    <td>
+                        <input type="number" min="18" max="70">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="3">
+                        <button type="submit">Trimite</button>
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
