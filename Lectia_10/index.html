@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Exercitiul 10</title>
+    </head>
+
+    <body>
+        <ul id="list1"></ul>
+
+        <div style="margin-top: 20px;">
+            <div>
+                Nume: <input type="text" name="person" id="person">
+            </div>
+            <div>
+                Telefon: <input type="text" name="tel" id="tel" onkeyup="validatePhone(this)">
+            </div>
+            <div style="color: red; visibility: hidden;" id="errorHint">Numar incorect</div>
+            <div>
+                <button onclick="addPerson()" disabled id="btn1">Adauga</button>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
